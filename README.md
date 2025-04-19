@@ -7,3 +7,7 @@ This project creates a virtual pet named **Mypuppy**, a dog, using Python OOP pr
 ### eat()
 - **Author**: Precious Diana
 - Reduces the pet's hunger by 5 (not below 0) and increases happiness by 1.
+
+### sleep()
+- **Author**: Bilha Mwpondu
+- Decreases energy by 5 (not below 0), increases happiness by 2, and increases hunger by 1.

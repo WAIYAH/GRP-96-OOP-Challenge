@@ -11,3 +11,12 @@ class Pet:
     def eat(self):
         self.hunger = max(0, self.hunger - 5)  # Reduce hunger by 5, not below 0
         self.happiness += 1
+
+
+    def sleep(self):
+        self.energy = max(0, self.energy - 5)  # Reduce energy by 5, not below 0
+        self.happiness += 2
+        self.hunger += 1
+
+
+
