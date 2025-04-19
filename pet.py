@@ -7,3 +7,7 @@ class Pet:
         self.happiness = 0
         self.tricks = []  # For bonus methods
 
+
+    def eat(self):
+        self.hunger = max(0, self.hunger - 5)  # Reduce hunger by 5, not below 0
+        self.happiness += 1
