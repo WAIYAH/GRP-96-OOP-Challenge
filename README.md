@@ -22,3 +22,15 @@ This project creates a virtual pet named **Mypuppy**, a dog, using Python OOP pr
 - **Author**: Joseph Mutua
 - Teaches the pet a new trick and adds it to the tricks list.
 
+### show_tricks()
+- **Author**: Nomakha Dlomo
+- Prints all tricks the pet has learned.
+
+
+## Team Contributions
+- **Lucky Nakola**: Set up repository, created Pet class structure, named pet Mypuppy, wrote main.py, managed submission.
+- **Precious Diana**: Implemented eat() method, wrote README section, tested.
+- **Bilha Mwpondu**: Implemented sleep() method, wrote README section, tested.
+- **E.O. Deborah**: Implemented get_status() method, wrote README section, tested.
+- **Joseph Mutua**: Implemented train() method, wrote README section, tested.
+- **Nomakha Dlomo**: Implemented show_tricks() method, wrote README section, tested, prepared screenshot.

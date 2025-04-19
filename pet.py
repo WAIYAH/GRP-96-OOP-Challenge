@@ -24,11 +24,20 @@ class Pet:
         print(f"Hunger: {self.hunger}")
         print(f"Energy: {self.energy}")
         print(f"Happiness: {self.happiness}")
+        
 
             
     def train(self, trick):
         self.tricks.append(trick)
         print(f"{self.name} learned a new trick: {trick}!")
+
+
+    def show_tricks(self):
+        if self.tricks:
+            print(f"{self.name}'s tricks: {', '.join(self.tricks)}")
+        else:
+            print(f"{self.name} hasn't learned any tricks yet.")
+
 
 
 
