@@ -16,3 +16,9 @@ This project creates a virtual pet named **Mypuppy**, a dog, using Python OOP pr
 ### get_status()
 - **Author**: E.O. Deborah
 - Prints the pet's current state (name, hunger, energy, happiness).
+
+
+### train(trick)
+- **Author**: Joseph Mutua
+- Teaches the pet a new trick and adds it to the tricks list.
+
