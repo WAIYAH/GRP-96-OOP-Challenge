@@ -19,4 +19,12 @@ class Pet:
         self.hunger += 1
 
 
+    def get_status(self):
+        print(f"Pet: {self.name}")
+        print(f"Hunger: {self.hunger}")
+        print(f"Energy: {self.energy}")
+        print(f"Happiness: {self.happiness}")
+
+
+
 
